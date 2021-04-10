@@ -1,0 +1,21 @@
+
+;; Primary is one of:
+;; - "red"
+;; - "yellow"
+;; - "blue"
+;; interp. if variable is primary color
+
+;; <examples are redundand for enumerations>
+
+
+; (define (primaryFunction pri)
+;   (cond [(string=? "red" pri) (...)
+ ;        [(string=? "yellow" pri) (...)]
+  ;       [(string=? "blue" pri) (...)]
+
+;; Template rules used:
+;; - one of: 3 cases
+;; - atomic distinct: "red"
+;; - atomic distinct: "yellow"
+;; - atomic distinct: "blue"
+
