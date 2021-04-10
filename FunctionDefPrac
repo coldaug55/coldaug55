@@ -1,0 +1,12 @@
+;; Number => Number
+;; produces a number squared
+(check-expect (square 2) (* 2 2))
+(check-expect (square 3) (* 3 3))
+
+;(define (square n) 0) ; this is the stub
+
+;(define (square n)   ;this is the template
+;     (... n)
+
+(define (square n)   
+  (* n n))
